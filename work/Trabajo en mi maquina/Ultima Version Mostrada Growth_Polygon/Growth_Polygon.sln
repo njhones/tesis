@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Growth_Polygon", "Growth_Polygon.csproj", "{A1B206C8-EB9B-43CF-BA9A-8FE23E8115F6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A1B206C8-EB9B-43CF-BA9A-8FE23E8115F6}.Debug.ActiveCfg = Debug|.NET
+		{A1B206C8-EB9B-43CF-BA9A-8FE23E8115F6}.Debug.Build.0 = Debug|.NET
+		{A1B206C8-EB9B-43CF-BA9A-8FE23E8115F6}.Release.ActiveCfg = Release|.NET
+		{A1B206C8-EB9B-43CF-BA9A-8FE23E8115F6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+\beamer@endinputifotherversion {3.06pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Descripci\'{o}n del problema}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Caracter\'isticas}{2}{0}{1}
+\beamer@sectionintoc {2}{Una forma de abordar el problema}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Una forma de abordar el problema}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{La idea del Plane-Sweep}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{\textquestiondown Criterios o conjeturas?}{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{Conclusiones}{22}{0}{2}
+\beamer@sectionintoc {3}{El esqueleto recto}{27}{0}{3}
+\beamer@subsectionintoc {3}{1}{\textquestiondown Qu\'e es el esqueleto recto?}{27}{0}{3}
+\beamer@subsectionintoc {3}{2}{Propiedades b\'asicas}{32}{0}{3}
+\beamer@subsectionintoc {3}{3}{C\'omputo del esqueleto recto}{37}{0}{3}
+\beamer@subsectionintoc {3}{4}{An\'alisis}{62}{0}{3}
+\beamer@sectionintoc {4}{Las paralelas}{69}{0}{4}
+\beamer@subsectionintoc {4}{1}{Relaci\'on con las caras de S(P)}{69}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{79}{0}{5}
+\beamer@sectionintoc {6}{Preguntas}{83}{0}{6}
+\beamer@sectionintoc {7}{Ap\'endice}{90}{0}{7}
+\beamer@subsectionintoc {7}{1}{Demostraciones}{91}{0}{7}

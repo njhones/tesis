@@ -1,0 +1,81 @@
+%\newtheorem{theorem}{Teorema}[section]
+%\setbeamercolor{normal text}{fg=black,bg=mylightgrey}  
+
+
+\documentclass[notes=show]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\usepackage{multimedia}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{pgf}
+
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2890}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Thursday, June 14, 2007 23:33:38}
+%TCIDATA{LastRevised=Wednesday, June 20, 2007 05:51:14}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Other Documents\SW\Slides - Beamer">}
+%TCIDATA{CSTFile=beamer.cst}
+
+\setbeamercovered{highly dynamic}
+\newcommand{\myblue}{\only{\color{blue}}}
+\newtheorem{claim}{Caracter\'isticas}[section]
+\newenvironment{stepenumerate}{\begin{enumerate}[<+->]}{\end{enumerate}}
+\newenvironment{stepitemize}{\begin{itemize}[<+->]}{\end{itemize} }
+\newenvironment{stepenumeratewithalert}{\begin{enumerate}[<+-| alert@+>]}{\end{enumerate}}
+\newenvironment{stepitemizewithalert}{\begin{itemize}[<+-| alert@+>]}{\end{itemize} }
+\usetheme{CambridgeUS}
+\input{tcilatex}
+\begin{document}
+
+\title[Crecimiento y decrecimiento de pol\'igonos]{Crecimiento y
+decrecimiento de pol\'igonos mediante paralelas}
+\author[Jhones]{Nelson Gonz\'alez Jhones}
+\institute[MATCOM UH]{\\
+Universidad de la Habana Facultad de Matem\'atica y Computaci\'on}
+\date[06/07]{Junio 2007}
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[height=2cm, width=1cm ]{C:/c/escudo.jpg}%j	   
+%\end{figure}
+%\qquad \qquad \qquad {\titlepage}
+
+%\begin{center}
+%\vspace{1cm} 
+%\end{center}
+
+
+%\subsection{Conclusiones}
+
+
+\begin{frame}
+\frametitle{Resultados}
+
+\begin{block}{}
+\begin{itemize}
+	\item<1-| alert@+>La eliminaci\'on local provoca la eliminaci\'on de segmentos que deberian aparecer en el resultado
+	\item<2-| alert@+>Eficiente para distancias peque\~nas.
+	\item<3-| alert@+>Intersecciones con la original parcial y completamente.  
+\end{itemize}
+\end{block}
+
+\transsplitverticalout[duration=0.4]
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+	\centering
+		\includegraphics<1>[height=4cm, width=5cm]{C:/c/ar2.png}%j		
+		\includegraphics<2>[height=4cm, width=5cm]{C:/c/arbol1.png}%j	 	
+		\caption{\only<1>{p}\only<2>{s}}
+\end{figure}
+\end{frame}
+
+
+\end{document}

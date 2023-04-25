@@ -1,0 +1,178 @@
+%\newtheorem{theorem}{Teorema}[section]
+%\setbeamercolor{normal text}{fg=black,bg=mylightgrey}  
+
+
+\documentclass[notes=show]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\usepackage{multimedia}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{pgf}
+
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2890}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Thursday, June 14, 2007 23:33:38}
+%TCIDATA{LastRevised=Wednesday, June 20, 2007 05:50:14}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Other Documents\SW\Slides - Beamer">}
+%TCIDATA{CSTFile=beamer.cst}
+
+\setbeamercovered{highly dynamic}
+\newcommand{\myblue}{\only{\color{blue}}}
+\newtheorem{claim}{Caracter\'isticas}[section]
+\newenvironment{stepenumerate}{\begin{enumerate}[<+->]}{\end{enumerate}}
+\newenvironment{stepitemize}{\begin{itemize}[<+->]}{\end{itemize} }
+\newenvironment{stepenumeratewithalert}{\begin{enumerate}[<+-| alert@+>]}{\end{enumerate}}
+\newenvironment{stepitemizewithalert}{\begin{itemize}[<+-| alert@+>]}{\end{itemize} }
+\usetheme{CambridgeUS}
+\input{tcilatex}
+\begin{document}
+
+\title[Crecimiento y decrecimiento de pol\'igonos]{Crecimiento y
+decrecimiento de pol\'igonos mediante paralelas}
+\author[Jhones]{Nelson Gonz\'alez Jhones}
+\institute[MATCOM UH]{\\
+Universidad de la Habana Facultad de Matem\'atica y Computaci\'on}
+\date[06/07]{Junio 2007}
+
+%\title[Crecimiento y decrecimiento de pol\'igonos]{Crecimiento y
+%decrecimiento de pol\'igonos mediante paralelas}
+%\author[Jhones]{Nelson Gonz\'alez Jhones}
+%\institute{MATCOM UH\\
+%Facultad de Matem\'atica y Computaci\'on}
+%\date[06/07]{Junio 2007}
+%\titlegraphic{\includegraphics[width=1.2in, bb=0 0 463 578]{univlogo.jpg}}%\pgfuseimage{univlogo.jpg}
+%\logo{\includegraphics[height=4cm]{C:/c/escudo.jpg}%j		}
+%\maketitle
+
+[plain] 
+\begin{figure}[h]
+\centering
+\includegraphics[height=2cm, width=1cm ]{C:/c/escudo.jpg}%j	
+\end{figure}
+{\titlepage}
+
+\begin{center}
+\vspace{1cm} 
+%\inserttitlegraphic[height=1.6cm, width=1.2cm ]{C:/c/escudo.jpg}%j
+\end{center}
+
+\section{Descripci\'{o}n del problema}
+
+\subsection{Caracter\'isticas}
+
+\begin{frame}
+\frametitle{Descripci\'{o}n del problema}
+
+\begin{columns}[6cm]
+
+\column{7cm}
+
+%\begin{claim}
+\begin{block}{Caracter\'isticas}
+\begin{enumerate}
+\item<1-| alert@1> \textnormal{\small{El resultado consiste en un conjunto de pol\'igonos $P'$.}}
+\item<2-| alert@2>  \textnormal{\small{A cada segmento en $P'$ le corresponde un \'unico segmento en el pol\'igono original $P$.}}
+\item<3-| alert@3> \textnormal{\small{Sean los segmentos $s$ y $s'$ tal que $s \in P$ y $s' \in P'$}. Si $s$ es el segmento correspondiente de $s'$ entonces $s'$ es paralelo a $s$ y la distancia entre ellos es $d$. }
+\qedhere
+
+%
+\end{enumerate}
+\end{block}
+
+
+%\end{claim}
+
+\column{5cm}
+
+\begin{figure}[htbp]
+	
+		\includegraphics<1>[height=4cm]{C:/c/a.png}%j		
+		\includegraphics<2,3>[height=4cm]{C:/c/b.png}% 
+	
+\end{figure}
+
+
+\end{columns}
+\end{frame}
+
+\section{Una forma de abordar el problema}
+
+\subsection{Una forma de abordar el problema}
+
+\begin{frame}
+\frametitle{Una forma de abordar el problema}
+\end{frame}
+
+\section{El esqueleto recto}
+
+\subsection{\textquestiondown Qu\'e es el esqueleto}
+
+\begin{frame}
+\frametitle{Esqueleto recto} 
+\framesubtitle{\textquestiondown Qu\'e es el
+esqueleto recto?	} 
+\begin{block}{}
+Un \myblue{}{{esqueleto}} recto sobre un grafo plano $G$ es una partici\'on del plano en regiones de forma tal que cada regi\'on refleja, de manera \textcolor{violet} {apropiada} la forma geom\'etrica de $G$.
+
+\end{block}
+\pause
+\transboxin
+\begin{block}{Definici\'on}
+
+El esqueleto recto, de un pol\'igono simple en el plano, queda definido por el rastro que
+dejan los v\'ertices del pol\'igono inicial cuando este se ve encogido o ensanchado, movi\'endose
+de cada una de sus aristas a una misma velocidad.
+
+
+
+\transdissolve<2>
+\end{block}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+%\begin{columns}[6cm]
+
+%\column{7cm}	
+
+\begin{figure}[tbp]
+\centering
+\includegraphics<1>[height=4cm]{C:/c/a.png}%j		
+\includegraphics<2>[height=4cm]{C:/c/b.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Propiedades b\'asicas}
+\end{frame}
+
+\begin{block}{Lema}
+Arcos reflexivos de $S(P)$ s\'olo emanan de v\'ertices reflexivos de $P$.
+\end{block}
+
+\begin{overprint}
+  \onslide<1| handout:0| trans:0| article:0>
+    \hfill\hyperlinkframestartnext{\beamerskipbutton{Omitir demostraci\'on}}
+  \onslide<2| handout:1| trans:1>
+    \begin{proof}
+     \small {Sea $vu$ un arco emanado por alg\'un v\'ertice $v$ de $P$. Entonces $u$ es un 
+nodo que corresponde a un evento de arista o a un evento de divisi\'on. Es suficiente 
+mostrar que, despu\'es del evento, $S(P)$ contin\'ua en $u$ con arcos convexos
+solamente.\newline \newline}
+ \small{En el primer caso, sea $vw$ la arista desvanecida. Dado que el arco $wu$ se 
+encuentra con $vu$ en $u$, $u$ es un v\'ertice convexo del pol\'igono encogido en el momento 
+que el evento toma lugar. En el otro caso, el pol\'igono se divide en $u$. Es obvio que, en 
+ese momento $u$ es un v\'ertice convexo de ambos nuevos pol\'igonos.\newline \newline}
+ \small{En conclusi\'on, cada nuevo v\'ertice generado durante el proceso de encogimiento es 
+convexo. Entonces los arcos que parten de $u$ son convexos tambi\'en.}
+    \end{proof}
+  \end{overprint}
+
+\end{document}

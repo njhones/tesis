@@ -1,0 +1,1 @@
+Esta version es antes de eliminar los picos pero junta en una clase las listas de los Link a la original, los puntos y si son invertidos o no. Tambin tiene la interrupcion de picos no invertidos

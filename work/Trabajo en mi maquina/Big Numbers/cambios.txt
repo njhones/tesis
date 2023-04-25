@@ -1,0 +1,1 @@
+En el set de la propiedad [] no se reducia la cantidad de cifras significativas cuando se le asignaba 0 a la mas significativa. El cambio consistio en que si este era el caso reducia la cantidad en uno la cantidad de sifras significativas mientras la mas significativa fuera 0.

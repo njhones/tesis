@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorradorTesis", "BorradorTesis.csproj", "{FEF83870-56C8-47E3-8528-976D38614A32}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FEF83870-56C8-47E3-8528-976D38614A32}.Debug.ActiveCfg = Debug|.NET
+		{FEF83870-56C8-47E3-8528-976D38614A32}.Debug.Build.0 = Debug|.NET
+		{FEF83870-56C8-47E3-8528-976D38614A32}.Release.ActiveCfg = Release|.NET
+		{FEF83870-56C8-47E3-8528-976D38614A32}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

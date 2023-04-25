@@ -1,0 +1,1 @@
+Esta version elimina el vertice del pico invertido e interrumpe los picos no invertidos

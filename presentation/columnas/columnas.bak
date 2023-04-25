@@ -1,0 +1,73 @@
+
+\documentclass[notes=show]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\usepackage{multimedia}
+
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2890}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Thursday, June 14, 2007 23:33:38}
+%TCIDATA{LastRevised=Friday, June 15, 2007 00:43:29}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Other Documents\SW\Slides - Beamer">}
+%TCIDATA{CSTFile=beamer.cst}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{claim}{Caracter\'isticas}[section]
+\newenvironment{stepenumerate}{\begin{enumerate}[<+->]}{\end{enumerate}}
+\newenvironment{stepitemize}{\begin{itemize}[<+->]}{\end{itemize} }
+\newenvironment{stepenumeratewithalert}{\begin{enumerate}[<+-| alert@+>]}{\end{enumerate}}
+\newenvironment{stepitemizewithalert}{\begin{itemize}[<+-| alert@+>]}{\end{itemize} }
+\usetheme{CambridgeUS}
+\input{tcilatex}
+\begin{document}
+
+\title[Crecimiento y decrecimiento de pol\'igonos]{Crecimiento y
+decrecimiento de pol\'igonos mediante paralelas}
+\author[Nelson Gonz\'alez Jhones                        ]{Nelson Gonz\'alez Jhones}
+\institute{Universidad de la Habana\\
+Facultad de Matem\'atica y Computaci\'on}
+\date[06/07]{Junio 2007}
+\maketitle
+
+\section{Descripci\'{o}n del problema}
+
+\subsection{Caracter\'isticas \ }
+
+\begin{frame}
+\frametitle{Caracter\'isticas}
+
+\begin{columns}[6cm]
+
+\column{7cm}
+
+%\begin{claim}
+\begin{block}{Caracter\'isticas}
+\begin{enumerate}
+\item<1-| alert@1> \textnormal{\small{El resultado consiste en un conjunto de pol\'igonos $P'$.}}
+\item<2-| alert@2>  \textnormal{\small{A cada segmento en $P'$ le corresponde un \'unico segmento en el pol\'igono original $P$.}}
+\item<3-| alert@3> \textnormal{\small{Sean los segmentos $s$ y $s'$ tal que $s \in P$ y $s' \in P'$}. Si $s$ es el segmento correspondiente de $s'$ entonces $s'$ es paralelo a $s$ y la distancia entre ellos es $d$. }
+\qedhere
+
+%
+\end{enumerate}
+\end{block}
+
+
+%\end{claim}
+
+\column{5cm}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width = 5cm, height=5cm]{D:/Profile/jhones/Desktop/figs/corte1.jpg}
+	\label{fig:corte1}
+\end{figure}
+
+
+\end{columns}
+\end{frame}
+
+\end{document}
